@@ -1,7 +1,7 @@
 {
   "name": "monkeybroll-skills",
   "version": "0.1.0",
-  "description": "Personal Codex skills published by MonkeyBroLL.",
+  "description": "Personal agent skills for Claude, Codex, and Agent-Skills-standard harnesses.",
   "type": "module",
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
     "pack:dry-run": "npm pack --dry-run"
   },
   "keywords": [
+    "claude",
     "codex",
     "skills",
     "ai"

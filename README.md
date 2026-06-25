@@ -1,6 +1,6 @@
 # MonkeyBroLL Skills
 
-Personal Codex skills by MonkeyBroLL.
+Personal agent skills by MonkeyBroLL for Claude, Codex, and Agent-Skills-standard harnesses.
 
 ## Install from npm
 
@@ -30,10 +30,11 @@ Or run it without a global install:
 npx monkeybroll-skills
 ```
 
-The installer copies every skill under `skills/*/SKILL.md` into:
+The installer recursively finds every skill under `skills/**/SKILL.md` and copies each skill into:
 
-- `$CODEX_HOME/skills` when `CODEX_HOME` is set
-- `~/.agents/skills` otherwise
+- `~/.claude/skills` for Claude Code
+- `~/.agents/skills` for Codex and other Agent-Skills-standard harnesses
+- `$CODEX_HOME/skills` as an extra Codex target when `CODEX_HOME` is set
 
 ## Local Install
 
