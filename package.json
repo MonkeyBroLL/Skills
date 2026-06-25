@@ -1,0 +1,27 @@
+{
+  "name": "monkeybroll-skills",
+  "version": "0.1.0",
+  "description": "Personal Codex skills published by MonkeyBroLL.",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonkeyBroLL/Skills.git"
+  },
+  "bin": {
+    "monkeybroll-skills": "./bin/install.js"
+  },
+  "files": [
+    "bin",
+    "skills"
+  ],
+  "scripts": {
+    "check": "node --check bin/install.js",
+    "pack:dry-run": "npm pack --dry-run"
+  },
+  "keywords": [
+    "codex",
+    "skills",
+    "ai"
+  ],
+  "license": "MIT"
+}
