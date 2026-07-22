@@ -48,6 +48,7 @@ node ./bin/install.js
 
 ## Skills
 
+- `concept-investigator` - Builds a sourced mental model for an unfamiliar concept using safe web research, repository documentation, and implementation call-path tracing.
 - `insight-capture` - Captures valuable discussion conclusions, design insights, investigation findings, and spontaneous ideas into durable notes after confirmation.
 
 ## Publish
